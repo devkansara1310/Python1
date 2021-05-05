@@ -20,16 +20,15 @@ def password():
 
   temp = r1+r2+r3+r4
   all = s1+s2
-
+  
   for x in range(len.get()-4):
     temp = temp + random.choice(all)
     password_list = array.array('u', temp)
     random.shuffle(password_list)  
   password = ""
   for x in password_list:
-          password = password + x
+    password = password + x
   random_password.set(password)
-  # print(password)
 
 def copy():
   copy=random_password.get()
