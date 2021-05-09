@@ -23,4 +23,5 @@ Get QR code of any website
 # 8 Quize
 Animal Quize with 3 attempt after that answer will be visible to you.
 
-# 9
+# 9 Colored Text 
+Print Colored text with Background and Foreground Color
